@@ -14,7 +14,7 @@ public class Principal {
 		Cliente cliente1 = new Cliente();
 		ContaCorrente cc1 = new ContaCorrente();
 		cliente1.setCpf("123.456.789-10");
-		cliente1.setNome("Inês Istente");
+		cliente1.setNome("Xico Aires");
 		cc1.setAgencia("1010");
 		cc1.setNumeroConta(1);
 		cc1.setContemPix(false);
@@ -36,7 +36,7 @@ public class Principal {
 		if (agencia.equals("1010")) {
 			if (conta == 1) {
 
-				System.out.println("\nOlá. Seja bem vinda, " + cliente1.getNome() + "!\n");
+				System.out.println("\nOlá. Seja bem vindo, " + cliente1.getNome() + "!\n");
 
 				do {
 					System.out.println("----------------------");
