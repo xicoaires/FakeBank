@@ -27,7 +27,7 @@ public class Principal {
 		cp1.setAgencia("1010");
 		cp1.setNumeroConta(1);
 
-		System.out.println("IBank\n");
+		System.out.println("FakeBank\n");
 		System.out.print("Digite a sua agência: ");
 		agencia = ler.nextLine();
 		System.out.print("Digite a sua conta: ");
@@ -40,7 +40,7 @@ public class Principal {
 
 				do {
 					System.out.println("----------------------");
-					System.out.println("|    IBank - Menu    |");
+					System.out.println("|  FakeBank - Menu   |");
 					System.out.println("|                    |");
 					System.out.println("| 1 - SACAR          |");
 					System.out.println("| 2 - DEPOSITAR      |");
